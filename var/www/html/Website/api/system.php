@@ -27,12 +27,15 @@ switch ($requestedMessage){
 		$variables[] = "BIM4MaxCellVoltage";
 		$variables[] = "BIM5MinCellVoltage";
 		$variables[] = "BIM5MaxCellVoltage";
+		$variables[] = "BIM6MinCellVoltage";
+		$variables[] = "BIM6MaxCellVoltage";
 	
 		$variables[] = "BIM1AvgCellVoltage";
 		$variables[] = "BIM2AvgCellVoltage";
 		$variables[] = "BIM3AvgCellVoltage";
 		$variables[] = "BIM4AvgCellVoltage";
 		$variables[] = "BIM5AvgCellVoltage";
+		$variables[] = "BIM6AvgCellVoltage";
 
 		break;
 	case "allBatteries":
